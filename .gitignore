@@ -1,0 +1,6 @@
+# 不要上传虚拟环境
+backend/venv/
+# 不要上传用户传的图片
+backend/uploads/
+# 不要上传密码文件
+.env

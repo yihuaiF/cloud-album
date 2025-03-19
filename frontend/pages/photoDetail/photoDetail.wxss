@@ -1,0 +1,10 @@
+.detail-container {
+  padding: 10px;
+}
+.detail-image {
+  width: 100%;
+  height: 300px;
+}
+.detail-title, .detail-size {
+  margin: 10px 0;
+}

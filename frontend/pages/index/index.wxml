@@ -1,0 +1,9 @@
+<view class="container">
+  <block wx:for="{{photos}}" wx:key="id">
+    <view class="photo-item" bindtap="goToDetail" data-id="{{item.id}}">
+      <image src="{{item.url}}" class="photo-image" />
+      <view class="photo-title">{{item.title}}</view>
+      <view class="photo-size">尺码：{{item.size}}</view>
+    </view>
+  </block>
+</view>

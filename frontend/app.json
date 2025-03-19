@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/photoDetail/photoDetail"
+  ],
+  "window": {
+    "navigationBarTitleText": "淮溯立方",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/photoDetail/photoDetail",
+        "text": "详情",
+        "iconPath": "images/detail.png",
+        "selectedIconPath": "images/detail-active.png"
+      }
+    ]
+  }
+}

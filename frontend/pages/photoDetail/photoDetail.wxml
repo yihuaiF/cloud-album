@@ -1,0 +1,5 @@
+<view class="detail-container">
+  <image src="{{photo.url}}" class="detail-image" />
+  <view class="detail-title">{{photo.title}}</view>
+  <view class="detail-size">尺码：{{photo.size}}</view>
+</view>
